@@ -1,9 +1,27 @@
-body
-	display:flex
+.wrapper
+	display: flex
 	flex-direction: column
-	justify-content: center
-	background-color: #f4f4f4
-	font-size: 24px
-	color: #353535
-	text-align: center
-	
+	min-height: 100%
+	// overflow: hidden
+
+.content
+	flex: 1 1 auto
+
+.container
+	width: 100%
+	max-width: 1280px
+	margin: 0 auto
+	padding: 0 45px
+
+body
+	background-color: $dark
+
+.title
+	font-size: 48px
+	margin-bottom: 40px
+	letter-spacing: 0.05em
+
+footer
+	min-height: 40px
+	background-color: #ccc
+	width: 100%

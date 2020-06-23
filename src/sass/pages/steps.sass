@@ -1,0 +1,59 @@
+.steps
+  padding: 40px 0
+  
+.steps__content
+  display: flex
+
+.card
+  background-color: $dark-gray
+  min-width: 280px
+  min-height: 400px
+  display: flex
+  flex-direction: column
+  padding: 20px
+  margin-right: 40px
+  transition: all 333ms
+  &:hover
+    background-color: $accent
+    box-shadow: $accent-shadow
+    &:last-child
+      svg
+        fill: #fff
+        transition: all 700ms
+
+.card__title
+  margin-bottom: 0
+
+.card__text
+  margin-top: 20px
+  flex-grow: 1
+  font-size: 18px
+  font-weight: 400
+  letter-spacing: 0.1em
+
+.card__link
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.card__social
+  a
+    margin-right: 10px
+    transition: all 333
+    &:last-child
+      margin-right: 0
+    svg:hover
+      fill: #ffffff
+      
+.steps__note
+  margin-top: 20px
+  margin-left: 15px
+
+.steps__item
+  display: flex
+  align-items: center
+  margin-bottom: 10px
+
+.steps__item_text
+  margin-left: 10px
+  font-size: 14px

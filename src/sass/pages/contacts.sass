@@ -1,0 +1,93 @@
+.contacts
+  padding: 40px 0
+
+.form__box
+  display: flex
+  justify-content: space-between
+
+.form__inputs
+  width: 100%
+  max-width: 380px
+
+.form__item
+  margin-bottom: 20px
+
+.form__label
+  font-size: 24px
+  letter-spacing: 0.05em
+  position: relative
+  span
+    color: $accent
+    text-shadow: $accent-shadow
+    position: absolute
+    margin-left: 6px
+    top: -4px
+    font-size: 20px
+    font-family: "Roboto", sans-serif
+    
+.form__field
+  width: 100%
+  max-width: 380px
+  padding: 11px 20px
+  color: $accent
+  font-size: 18px
+  background-color: $dark-gray
+  border: 1px solid #333333
+  margin-top: 14px
+  text-shadow: $accent-shadow
+  transition: all 333ms
+  &::placeholder
+    color: rgba(209, 209, 209, 0.4)
+    font-size: 18px
+    text-shadow: none
+  &:focus
+    border: 1px solid $accent
+    outline: none
+
+.form__btn
+  width: 100%
+  max-width: 380px
+  border: 1px solid #333333
+  padding: 10px
+  text-align: center
+  background-color: $dark-gray
+  font-size: 18px
+  color: $gray-text
+  margin-top: 20px
+  cursor: pointer
+  transition: all 333ms
+  &:hover
+    color: $active-text
+    background-color: $accent
+    box-shadow: $accent-shadow
+
+.form__textarea
+  width: 100%
+  max-width: 720px
+
+#desc
+  width: 100%
+  max-width: 720px
+  background-color: $dark-gray
+  border: solid 1px #333333
+  padding: 20px
+  margin-top: 20px
+  font-size: 18px
+  color: $accent
+  text-shadow: $accent-shadow
+  resize: none
+  transition: all 333ms
+  &::placeholder
+    color: rgba(209, 209, 209, 0.4)
+    text-shadow: none
+    font-size: 16px
+  &:focus
+    border: 1px solid $accent
+    outline: none
+
+.form__links
+  display: flex
+  align-items: center
+  margin-top: 20px
+  img
+    margin-left: 10px

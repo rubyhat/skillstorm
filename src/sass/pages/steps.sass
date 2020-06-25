@@ -3,15 +3,19 @@
   
 .steps__content
   display: flex
+  flex-wrap: wrap
+  justify-content: center
 
 .card
   background-color: $dark-gray
+  max-width: 341px
   min-width: 280px
   min-height: 400px
   display: flex
   flex-direction: column
   padding: 20px
-  margin-right: 40px
+  margin-right: 20px
+  margin-bottom: 20px
   transition: all 333ms
   &:hover
     background-color: $accent
@@ -57,3 +61,7 @@
 .steps__item_text
   margin-left: 10px
   font-size: 14px
+
+@media screen and (max-width: 530px)
+  .card
+    margin-right: 0

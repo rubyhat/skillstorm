@@ -4,7 +4,11 @@
 .steps__content
   display: flex
   flex-wrap: wrap
-  justify-content: center
+  justify-content: space-between
+
+@media screen and (max-width: 1180px)
+  .steps__content
+    justify-content: center
 
 .card
   background-color: $dark-gray
